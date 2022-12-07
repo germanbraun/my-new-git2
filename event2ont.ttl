@@ -12,6 +12,10 @@
   vaem:namespace <http://ontologies.metaphacts.com/event2/>;
   rdfs:label "Event2" .
 
+:OtherMatch a owl:Class;
+  rdfs:isDefinedBy <http://ontologies.metaphacts.com/event2>;
+  rdfs:label "otherMatch" .
+
 :SoccerMatch a owl:Class;
   rdfs:isDefinedBy <http://ontologies.metaphacts.com/event2>;
   rdfs:label "SoccerMatch" .
